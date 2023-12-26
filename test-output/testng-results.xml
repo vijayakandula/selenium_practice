@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-25T16:40:12 IST" name="Suite1" finished-at="2023-12-25T16:40:29 IST" duration-ms="16987">
+    <groups>
+    </groups>
+    <test started-at="2023-12-25T16:40:12 IST" name="Salesforce Test" finished-at="2023-12-25T16:40:22 IST" duration-ms="9527">
+      <class name="com.java.selenium.automation.tests.Salesforce_TryFree_Test">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.java.selenium.automation.tests.Salesforce_TryFree_Test@524d6d96]" started-at="2023-12-25T16:40:12 IST" name="setup" finished-at="2023-12-25T16:40:15 IST" duration-ms="3125" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://login.salesforce.com/?locale=in]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="salesforce_TryFree_Test()[pri:0, instance:com.java.selenium.automation.tests.Salesforce_TryFree_Test@524d6d96]" started-at="2023-12-25T16:40:15 IST" name="salesforce_TryFree_Test" finished-at="2023-12-25T16:40:22 IST" duration-ms="6368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- salesforce_TryFree_Test -->
+      </class> <!-- com.java.selenium.automation.tests.Salesforce_TryFree_Test -->
+    </test> <!-- Salesforce Test -->
+    <test started-at="2023-12-25T16:40:22 IST" name="Instagram Test" finished-at="2023-12-25T16:40:29 IST" duration-ms="7444">
+      <class name="com.java.selenium.automation.tests.InstagramLogin_Test">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.java.selenium.automation.tests.InstagramLogin_Test@15bbf42f]" started-at="2023-12-25T16:40:22 IST" name="setup" finished-at="2023-12-25T16:40:24 IST" duration-ms="2135" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.instagram.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="instagramlogin_test()[pri:1, instance:com.java.selenium.automation.tests.InstagramLogin_Test@15bbf42f]" started-at="2023-12-25T16:40:24 IST" name="instagramlogin_test" finished-at="2023-12-25T16:40:29 IST" duration-ms="5306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- instagramlogin_test -->
+      </class> <!-- com.java.selenium.automation.tests.InstagramLogin_Test -->
+    </test> <!-- Instagram Test -->
+  </suite> <!-- Suite1 -->
+</testng-results>

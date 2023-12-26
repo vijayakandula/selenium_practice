@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-26T18:14:36 IST" name="Suite1" finished-at="2023-12-26T18:14:47 IST" duration-ms="11252">
+    <groups>
+    </groups>
+    <test started-at="2023-12-26T18:14:36 IST" name="Salesforce Test" finished-at="2023-12-26T18:14:47 IST" duration-ms="11252">
+      <class name="com.java.selenium.automation.tests.Salesforce_TryFree_Test">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.java.selenium.automation.tests.Salesforce_TryFree_Test@131ef10]" started-at="2023-12-26T18:14:36 IST" name="setup" finished-at="2023-12-26T18:14:40 IST" duration-ms="3815" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://login.salesforce.com/?locale=in]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="salesforce_TryFree_Test()[pri:0, instance:com.java.selenium.automation.tests.Salesforce_TryFree_Test@131ef10]" started-at="2023-12-26T18:14:40 IST" name="salesforce_TryFree_Test" finished-at="2023-12-26T18:14:47 IST" duration-ms="7411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- salesforce_TryFree_Test -->
+      </class> <!-- com.java.selenium.automation.tests.Salesforce_TryFree_Test -->
+    </test> <!-- Salesforce Test -->
+  </suite> <!-- Suite1 -->
+</testng-results>
